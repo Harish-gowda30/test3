@@ -5,6 +5,17 @@ body{
     padding: 0;
 }
 
+.sidebar{
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+    width: 250px; 
+    height: 100%; 
+    background-color: #333; 
+    color: #fff; 
+   border-right: 2px solid black;
+}
+
 .nav-bar{
     display: flex;
     flex-direction: row;
@@ -16,7 +27,8 @@ body{
     background: yellowgreen;
 }
 .marquee{
-    margin-top: 20px;
+    margin-left: 250px;
+    margin-top: 2px;
     box-shadow: 0 1px 0 0 red;
     padding: 20px 0px;
     background: aquamarine;
@@ -24,5 +36,5 @@ body{
 .source{
     background: linear-gradient(180deg, pink,white);
     height: 100vh;
-    padding-top: 20px;
+    margin: 2px;
 }
