@@ -18,13 +18,14 @@ body{
 .collections{
     margin-top: 40%;
 }
-.collections ul{
-    border: 0.5px solid rgba(234,678,123,0.5);
-    padding: 10px;
-    width: 50%;
-    margin-left: 25%;
-    text-align: center;
-    color: black;
+.btn-1{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   text-align: center;
+   margin-left: 20%;
+   padding: 10px 0px;
+   width: 60%;
 }
 
 .nav-bar{
