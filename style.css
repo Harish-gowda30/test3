@@ -15,6 +15,17 @@ body{
     color: #fff; 
    border-right: 2px solid black;
 }
+.collections{
+    margin-top: 40%;
+}
+.collections ul{
+    border: 0.5px solid rgba(234,678,123,0.5);
+    padding: 10px;
+    width: 50%;
+    margin-left: 25%;
+    text-align: center;
+    color: black;
+}
 
 .nav-bar{
     display: flex;
